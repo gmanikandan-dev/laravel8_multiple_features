@@ -12,33 +12,42 @@
 
 ## _Setup development_
 
-	1. Run this in your terminal :
+>  _Step 1. Run this in your terminal :
 
-	````
-        git clone https://github.com/gmanikandan-dev/laravel8_multiple_features.git 
-    ````
-    
-    ````
-        cp .env.example .env
-    ````
-	2. create & set up your database on .env file
-    3. Run this your terminal:
+````
+    git clone https://github.com/gmanikandan-dev/laravel8_multiple_features.git 
+````
 
-    ````
-        composer install 
-    ````
+>  _Step 2.
 
-    ````
-    php artisan vendor:publish --provider="Spatie\MediaLibrary\MediaLibraryServiceProvider" --tag="migrations"
+````
+    cp .env.example .env
+````
 
-    ````
+>  _Step 3. create & set up your database on .env file
+>  _Step 4. Run this your terminal:
 
-    ````
-        php artisan migrate:fresh --seed
-    ````
+````
+    composer install 
+````
 
-	````
-        php artisan serve
-    ````
-	4. Open the development server http://127.0.0.1:8000
-    5. Register & use! :)
+>  _Step 5.
+
+````
+php artisan vendor:publish --provider="Spatie\MediaLibrary\MediaLibraryServiceProvider" --tag="migrations"
+
+````
+
+>  _Step 6.
+
+````
+    php artisan migrate:fresh --seed
+````
+
+>  _Step 7.
+
+````
+    php artisan serve
+````
+>  _Step 8. Open the development server http://127.0.0.1:8000
+>  _Step 9. Register & use!
