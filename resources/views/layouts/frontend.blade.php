@@ -23,7 +23,7 @@
                     <span class="font-semibold text-xl tracking-tight">Laravel 8 Shopping Cart</span>
                 </div>
                   <div class="flex flex-col sm:flex-row">
-                     <a class="mt-3 hover:underline sm:mx-3 sm:mt-0" href="/">Home</a>
+                     <a class="mt-3 hover:underline sm:mx-3 sm:mt-0" href="{{ route('home') }}">Home</a>
                      <a class="mt-3 hover:underline sm:mx-3 sm:mt-0" href="{{ route('products.list')}}">Shop</a>
                      <a href="{{ route('cart.list') }}" class="flex items-center">
                         <svg class="w-5 h-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
