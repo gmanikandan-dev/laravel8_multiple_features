@@ -2,9 +2,10 @@
 
 namespace Database\Seeders;
 
+use App\Models\Country;
 use Illuminate\Database\Seeder;
-use DB;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\DB;
 
 class CountrySeeder extends Seeder
 {
@@ -15,7 +16,7 @@ class CountrySeeder extends Seeder
      */
     public function run()
     {
-        DB::table('countries')->insert([
+        Country::insert([
             ['name'=>'India','created_at'=>Carbon::now()],
             ['name'=>'Bahrain','created_at'=>Carbon::now()],
             ['name'=>'Brazil','created_at'=>Carbon::now()],
@@ -30,8 +31,6 @@ class CountrySeeder extends Seeder
             ['name'=>'Switzerland','created_at'=>Carbon::now()],
             ['name'=>'Singapore','created_at'=>Carbon::now()],
             ['name'=>'Saudi Arabia','created_at'=>Carbon::now()],
-
-
         ]);
     }
 }

@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Faker\Factory as Faker;
-use DB;
+use Illuminate\Support\Facades\DB;
 
 class EmployeeSeeder extends Seeder
 {

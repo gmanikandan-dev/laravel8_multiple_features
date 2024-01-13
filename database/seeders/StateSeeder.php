@@ -3,8 +3,8 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use DB;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\DB;
 
 class StateSeeder extends Seeder
 {
