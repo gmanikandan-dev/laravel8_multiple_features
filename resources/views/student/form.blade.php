@@ -23,7 +23,7 @@ $taluk = Taluk::all();
     </div>
 @endif
     <div class="row d-flex justify-content-center">
-        <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+        <div class="col-xl-7 col-lg-8 col-md-9 col-11">
             <div class="card bg-light mt-3">
                 <div class="card-header">
                     <h5 class="text-center text-primary">Student Management System</h5>

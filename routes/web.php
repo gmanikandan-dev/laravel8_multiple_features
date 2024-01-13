@@ -80,7 +80,7 @@ Route::middleware([
     Route::get('userlist', [UserController::class, 'userList']);
 
     // qr code generation
-    Route::get('/generate-qrcode', [QrCodeController::class, 'index']);
+    Route::match(['get','post'],'/generate-qrcode', [QrCodeController::class, 'index'])->name('qrcode');
 
     // send mail 
     Route::get('mailform',[SettingsController::class,'mailIndex']);
